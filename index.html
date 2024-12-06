@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja de Instrumentos Musicais</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Loja de Instrumentos Musicais</div>
+      <ul class="menu">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#localizacao">Localização</a></li>
+        <li><a href="#comentarios">Comentários</a></li>
+        <li><a href="#premios">Prêmios</a></li>
+      </ul>
+      <div class="menu-toggle">☰</div>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="inicio">
+      <div class="video-background">
+        <video src="assets/Video.mp4" autoplay muted loop></video>
+      </div>
+      <div class="content">
+        <h1>Bem-vindo à nossa Loja de Instrumentos Musicais</h1>
+        <div class="images">
+          <img src="assets/guitar.jpg" alt="Instrumento 1">
+          <img src="assets/guitarra2.avif" alt="Instrumento 2">
+        </div>
+      </div>
+    </section>
+    
+    <section id="sobre">
+      <h2>Sobre Nós</h2>
+      <p>Informações sobre a história e a missão da loja.</p>
+    </section>
+    
+    <section id="servicos">
+      <h2>Serviços</h2>
+      <p>Visão geral dos serviços adicionais oferecidos, como aluguel de instrumentos e aulas.</p>
+    </section>
+    
+    <section id="contato">
+      <h2>Contato</h2>
+      <form id="contact-form">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    
+    <section id="localizacao">
+      <h2>Localização</h2>
+      <div id="map"></div>
+    </section>
+    
+    <section id="comentarios">
+      <h2>Comentários</h2>
+      <div id="comentarios-lista">
+        <!-- Lista de comentários -->
+      </div>
+    </section>
+    
+    <section id="premios">
+      <h2>Prêmios</h2>
+      <p>Exibição de quaisquer prêmios ou reconhecimentos.</p>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2024 Loja de Instrumentos Musicais. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
